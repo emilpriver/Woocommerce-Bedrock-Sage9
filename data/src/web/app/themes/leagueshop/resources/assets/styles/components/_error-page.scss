@@ -1,0 +1,33 @@
+.error-page {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -70px;
+
+  .container {
+    h1 {
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      @screen md {
+        font-size: 50px;
+      }
+    }
+
+    h2 {
+      font-size: 25px;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      @screen md {
+        font-size: 35px;
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+section.row-repeater {
+  width: 100%;
+  float: left;
+
+  .block {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin-bottom: 15px;
+    position: relative;
+    transition: all 0.3s;
+    float: left;
+
+    @screen sm {
+      margin-bottom: 33px;
+    }
+
+    img {
+      width: 100%;
+      float: left;
+      height: auto;
+    }
+
+    &:hover {
+      transform: scale(1.01);
+    }
+
+    span {
+      height: 57px;
+      position: absolute;
+      right: auto;
+      left: 0;
+      bottom: 0;
+      font-size: 14px;
+      color: #fff;
+      font-weight: 700;
+      width: 191px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+    }
+
+    &.right {
+      background-position: center right;
+
+      span {
+        right: 0;
+        left: auto;
+      }
+    }
+  }
+}

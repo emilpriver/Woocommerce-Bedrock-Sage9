@@ -1,0 +1,220 @@
+/* stylelint-disable no-descending-specificity */
+header#header-menu {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  background: #fff;
+
+  #search-row {
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+
+    &.open {
+      max-height: 100em;
+      transition: max-height 1s ease-in-out;
+    }
+
+    .wrapper {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+      float: left;
+      position: relative;
+
+      input {
+        width: 100%;
+        padding: 15px;
+        background: #eee;
+        border-radius: 10px;
+        color: #000;
+        font-weight: 700;
+        outline: none !important;
+        font-family: $roboto;
+      }
+
+      button {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 15px;
+      }
+    }
+  }
+
+  .logo {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+      max-height: 50px;
+      max-width: 100%;
+      height: auto;
+      width: auto;
+      display: block;
+    }
+  }
+
+  .menu-handle {
+    display: block;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-height: 0;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+    overflow: hidden;
+
+    @screen xl {
+      overflow: visible;
+    }
+
+    &.open {
+      max-height: 100em;
+      transition: max-height 1s ease-in-out;
+    }
+
+    @screen xl {
+      padding: 0;
+      display: flex;
+      max-height: 100em;
+    }
+
+    .main-menu {
+      flex: 0 0 100%;
+      margin-top: 30px;
+      width: 100%;
+      float: left;
+
+      @screen xl {
+        flex: 1;
+        margin-top: 0;
+        width: auto;
+        float: none;
+      }
+
+      ul {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+        display: block;
+        margin: 0;
+
+        @screen xl {
+          display: flex;
+          height: 70px;
+        }
+
+        li {
+          margin-right: 40px;
+          flex: 0 0 100%;
+          padding: 5px;
+          position: relative;
+
+          @screen xl {
+            flex: 0 0 auto;
+            padding: 0;
+          }
+
+          &:hover {
+            .sub-menu {
+              @screen xl {
+                visibility: visible;
+                opacity: 1;
+                pointer-events: all;
+                transition: 0;
+              }
+            }
+          }
+
+          .sub-menu {
+            padding-left: 20px;
+
+            @screen xl {
+              position: absolute;
+              left: 0;
+              top: 100%;
+              padding: 0;
+              margin: 0;
+              visibility: hidden;
+              opacity: 0;
+              transition: opacity 0.3s ease-in;
+              pointer-events: none;
+              width: 220px;
+              background: #f1f1f1;
+              flex-wrap: wrap;
+            }
+
+            .menu-item {
+              flex: 0 0 100%;
+              padding: 0 20px;
+              display: block;
+              margin: 10px 0;
+
+              @screen xl {
+                margin: 0;
+              }
+            }
+          }
+
+          a {
+            color: #000;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: $roboto;
+            transition: all 0.3s;
+
+            &:hover {
+              color: #000;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+
+    .extra-menu {
+      flex: 0;
+      align-items: center;
+      margin-left: 0;
+      float: left;
+      width: 100%;
+
+      @screen xl {
+        margin-left: 60px;
+        width: auto;
+        float: none;
+      }
+
+      ul {
+        height: 70px;
+        margin: 0;
+
+        li {
+          margin-right: 20px;
+
+          span {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .handle {
+    float: right;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+  }
+}

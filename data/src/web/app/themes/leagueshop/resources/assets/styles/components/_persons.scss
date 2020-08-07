@@ -1,0 +1,129 @@
+section.persons {
+  width: 100%;
+  float: left;
+
+  .breadcrumbz {
+    padding: 20px 0;
+    box-sizing: border-box;
+    background: #eff0f1;
+
+    .bread {
+      padding: 0 20px;
+
+      span {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000;
+      }
+
+      .breadcrumb_last {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .mx-auto {
+    .title {
+      width: 100%;
+      float: left;
+      margin-bottom: 30px;
+      padding: 0 30px;
+      box-sizing: border-box;
+
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+
+        @screen lg {
+          font-size: 50px;
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      float: left;
+      padding: 15px;
+
+      .col {
+        padding: 15px;
+
+        .wrapper {
+          background: #eee;
+          position: relative;
+          width: 100%;
+          float: left;
+
+          a {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            float: left;
+
+            .thumbnail {
+              height: 400px;
+              width: 100%;
+              float: left;
+              display: block;
+              background-size: cover;
+              background-position: center center;
+            }
+
+            .content {
+              text-align: center;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              &::before {
+                opacity: 1;
+                content: " ";
+                transition: all 0.3s;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.3);
+
+                @screen md {
+                  opacity: 0;
+                }
+              }
+
+              .title {
+                opacity: 1;
+                z-index: 2;
+                transition: all 0.3s;
+
+                @screen md {
+                  opacity: 0;
+                }
+
+                h3 {
+                  font-size: 25px;
+                  font-weight: 500;
+                  color: #fff;
+                }
+              }
+
+              &:hover {
+                &::before,
+                .title {
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

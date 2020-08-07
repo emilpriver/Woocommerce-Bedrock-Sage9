@@ -1,0 +1,325 @@
+.checkout_page {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 50px;
+
+    @screen md {
+      font-size: 50px;
+    }
+  }
+
+  .products {
+    width: 100%;
+    float: left;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+    .large {
+      flex: 0 0 100% !important;
+      display: flex;
+      align-items: center;
+
+      @screen md {
+        flex: 0 0 60% !important;
+      }
+    }
+
+    .column {
+      flex: 0 0 100%;
+      display: flex;
+      align-items: center;
+
+      @screen md {
+        flex: 1;
+      }
+
+      .variation {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 12px;
+
+        dt {
+          margin-right: 2px;
+        }
+
+        p {
+          font-weight: 500;
+        }
+      }
+
+      .product-name {
+        padding-left: 10px;
+      }
+    }
+
+    .cart-info-blocks {
+      width: 100%;
+      float: left;
+      display: flex;
+      flex-wrap: wrap;
+      font-weight: 500;
+      font-size: 20px;
+      color: #000;
+      margin-bottom: 20px;
+    }
+
+    .cart_item {
+      width: 100%;
+      float: left;
+      flex-wrap: wrap;
+      display: flex;
+      margin-bottom: 10px;
+
+      .product {
+        &-thumbnail {
+          img {
+            max-height: 70px;
+            max-width: 70px;
+            height: auto;
+            width: auto;
+            display: block;
+          }
+        }
+      }
+
+      .amount {
+        font-weight: 500;
+      }
+
+      a {
+        font-weight: 500;
+      }
+
+      .remove {
+        color: #424c53 !important;
+        font-size: 12px;
+        background: transparent;
+
+        &:hover {
+          background: transparent;
+          color: #000 !important;
+        }
+      }
+    }
+
+    .cart_info {
+      width: 100%;
+      float: left;
+      margin-top: 20px;
+      text-align: right;
+    }
+  }
+
+  .content {
+    width: 100%;
+    float: left;
+
+    .form-row {
+      @media screen and (max-width: 600px) {
+        width: 100%;
+      }
+    }
+
+    .coupon-wrapper {
+      border: 2px solid #eee;
+      width: 100%;
+      margin-bottom: 50px;
+      text-align: center;
+
+      .woocommerce-form-coupon-toggle {
+        width: 100%;
+        border: none;
+
+        .woocommerce-info {
+          border: none;
+          background-color: transparent;
+          margin-bottom: 0;
+          font-weight: 500;
+
+          &::before {
+            display: none;
+          }
+        }
+      }
+
+      form {
+        border: none;
+        font-weight: 500;
+
+        input {
+          background: #eee;
+          padding: 10px;
+          font-weight: 500;
+          border-radius: 5px;
+        }
+
+        .form-row {
+          button {
+            width: 100%;
+            padding: 12px;
+            font-size: 17px;
+            font-weight: 500;
+            box-sizing: border-box;
+            background: #000;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .checkout_hide {
+      display: none;
+    }
+
+    .col-12 {
+      margin-bottom: 50px;
+    }
+
+    input.shipping_method {
+      display: none;
+    }
+
+    .woocommerce-shipping-methods {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid #dcd5d5;
+      font-size: 15px;
+      font-weight: 700;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .order-total {
+      font-size: 20px;
+      margin: 20px 0;
+      font-weight: 500;
+    }
+
+    #place_order {
+      background: #000;
+      color: #fff;
+      padding: 15px 30px;
+      outline: none;
+    }
+
+    .woocommerce-terms-and-conditions-wrapper {
+      width: 100%;
+      float: left;
+      border: 0;
+      font-weight: 500;
+      color: #000;
+    }
+
+    #payment {
+      background: transparent;
+
+      .methods {
+        width: 100%;
+        float: left;
+        padding: 0;
+        border-bottom: 0;
+
+        li {
+          border: 2px solid #eee;
+          border-radius: 5px;
+          margin-bottom: 20px !important;
+          padding: 20px;
+          box-sizing: border-box;
+          width: 100%;
+          float: left;
+          font-size: 12px;
+          font-weight: 700;
+          color: #000;
+          cursor: pointer;
+
+          .input-radio {
+            display: none;
+          }
+
+          .inputElement {
+            border: 2px solid #eee;
+
+            &:focus {
+              border: 2px solid #000;
+            }
+          }
+
+          label {
+            display: flex;
+            flex-wrap: wrap;
+            cursor: pointer;
+          }
+
+          .payment_box {
+            background: transparent;
+
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    #order_review_heading {
+      font-size: 20px;
+      color: #000;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      width: 100%;
+      text-align: left;
+    }
+
+    #customer_details {
+      width: 100%;
+
+      h3 {
+        font-size: 20px;
+        color: #000;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: left;
+      }
+
+      .woocommerce-billing-fields__field-wrapper,
+      .woocommerce-shipping-fields__field-wrapper,
+      .woocommerce-additional-fields {
+        p {
+          label {
+            font-weight: 500;
+            font-size: 12px;
+            color: #000;
+          }
+
+          input {
+            background: #eee;
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+          }
+        }
+
+        textarea {
+          background: #eee;
+          border-radius: 5px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

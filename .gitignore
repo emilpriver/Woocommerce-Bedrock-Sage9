@@ -1,0 +1,3 @@
+nginx/logs/
+*.log
+.well-known

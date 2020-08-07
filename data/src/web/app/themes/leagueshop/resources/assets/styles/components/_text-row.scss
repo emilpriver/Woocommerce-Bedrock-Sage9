@@ -1,0 +1,39 @@
+section.text-row {
+  width: 100%;
+  padding: 50px 0;
+  box-sizing: border-box;
+  float: left;
+
+  .container {
+    .title {
+      width: 100%;
+      float: left;
+      margin-bottom: 30px;
+
+      h2 {
+        font-size: 30px;
+        color: #000;
+        font-weight: 700;
+
+        @screen lg {
+          font-size: 50px;
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      float: left;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+
+      .wrapper {
+        * {
+          color: #000;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "editor.tabSize": 2,
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.js$",
+                "cmd": "yarn build"
+            },
+            {
+                "match": "\\.scss$",
+                "cmd": "yarn build"
+            },
+        ]
+    }
+}

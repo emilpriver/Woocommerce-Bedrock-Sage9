@@ -1,0 +1,65 @@
+section.contact-form {
+  width: 100%;
+  float: left;
+  padding: 100px 0;
+  box-sizing: border-box;
+
+  .container {
+    .title {
+      width: 100%;
+      float: left;
+      margin-bottom: 30px;
+
+      h2 {
+        font-size: 30px;
+        color: #000;
+        font-weight: 700;
+
+        @screen md {
+          font-size: 50px;
+        }
+      }
+    }
+
+    .text {
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    p {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .wpcf7-response-output {
+      font-weight: 500;
+    }
+
+    label {
+      font-size: 15px;
+      color: #000;
+      font-weight: 700;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      background: #eee;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background: #000;
+      width: 200px;
+      max-width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+}

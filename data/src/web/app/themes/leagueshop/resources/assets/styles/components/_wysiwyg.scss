@@ -1,0 +1,29 @@
+section.wysiwyg {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+  box-sizing: border-box;
+
+  .container {
+    .title {
+      width: 100%;
+      float: left;
+      margin-bottom: 30px;
+
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+
+        @screen md {
+          font-size: 50px;
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      float: left;
+    }
+  }
+}

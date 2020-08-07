@@ -1,0 +1,18 @@
+version: '3'
+services:
+  nginx:
+    build: ./nginx
+    volumes:
+      - ./data/src:/var/www/html:delegated
+      - ./nginx/logs:/var/log/nginx:delegated
+    ports:
+      - '8080:80'
+    depends_on:
+      - php-fpm
+  php-fpm:
+    build: ./php-fpm
+    env_file:
+      - ./data/config/.env.development
+    volumes:
+      - ./data/src:/var/www/html:delegated
+      - ./php-fpm/config/php.ini-development:/usr/local/etc/php/conf.d/php.ini:delegated

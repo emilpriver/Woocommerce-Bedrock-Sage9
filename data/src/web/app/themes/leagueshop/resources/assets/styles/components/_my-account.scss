@@ -1,0 +1,26 @@
+#customer_login {
+  form {
+    border: 2px solid #eee;
+
+    input {
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background: #eee;
+    }
+
+    button {
+      background: #000;
+      color: #fff;
+      padding: 10px 25px;
+    }
+  }
+}
+
+.woocommerce-MyAccount-navigation {
+  float: left !important;
+}
+
+.woocommerce-MyAccount-content {
+  float: right !important;
+}

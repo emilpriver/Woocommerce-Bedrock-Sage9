@@ -1,0 +1,319 @@
+.single-product-component {
+  width: 100%;
+  float: left;
+  background: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+
+  @screen md {
+    padding: 20px;
+  }
+
+  &-description {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+    box-sizing: border-box;
+
+    h2 {
+      font-size: 30px;
+      color: #000;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+
+      @screen md {
+        font-size: 40px;
+      }
+    }
+
+    * {
+      font-weight: 500;
+    }
+
+    .container {
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+  }
+
+  &-hero {
+    width: 100%;
+    float: left;
+    position: relative;
+
+    &-images {
+      width: 100%;
+
+      .image {
+        display: flex;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        justify-content: center;
+        align-items: center;
+        min-height: 250px;
+
+        @screen xs {
+          min-height: 400px;
+        }
+
+        @screen sm {
+          min-height: 600px;
+        }
+
+        @screen standingtable {
+          min-height: 800px;
+        }
+
+        @screen xl {
+          height: 800px;
+        }
+
+        img {
+          object-fit: contain;
+          max-height: 100%;
+          max-width: 100%;
+          height: auto;
+          width: auto;
+          display: block;
+        }
+      }
+    }
+
+    &-info {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      float: left;
+
+      &-content {
+        &.fixed {
+          position: fixed;
+        }
+
+        &.absolute {
+          bottom: 0;
+          position: absolute;
+          right: 0;
+        }
+
+        .variable-item-span {
+          font-weight: 500;
+          font-size: 12px;
+        }
+
+        .wrapper {
+          position: relative;
+          width: 100%;
+          height: 600px;
+          display: flex;
+
+          .block {
+            float: right;
+            flex: 0 0 100%;
+            background: #fff;
+            height: 100%;
+            padding: 50px 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-right: 0;
+            justify-content: center;
+            z-index: 5;
+
+            @screen xl {
+              flex: 0 0 450px;
+            }
+
+            h1 {
+              font-size: 30px;
+              color: #000;
+              font-weight: 700;
+              margin-bottom: 15px;
+              width: 100%;
+              text-align: left;
+            }
+
+            h4 {
+              font-size: 18px;
+              font-weight: 500;
+              color: #000;
+              margin-bottom: 15px;
+              text-decoration: underline;
+              width: 100%;
+              text-align: left;
+            }
+
+            .custom_nickname_wrapper {
+              margin-bottom: 10px;
+
+              .label {
+                width: 100%;
+                font-weight: 500;
+                font-size: 12px;
+              }
+
+              #custom_nickname {
+                width: 100%;
+                padding: 10px;
+                border-radius: 5px;
+                font-weight: 500;
+              }
+            }
+
+            input {
+              border: 2px solid #eee !important;
+              transition: all 0.3s;
+              outline: none;
+              border-radius: 2px;
+              padding: 5px;
+              font-weight: 500;
+
+              &:focus {
+                border: 2px solid #000 !important;
+              }
+            }
+
+            .price {
+              width: 100%;
+              margin-bottom: 20px;
+
+              span {
+                font-size: 18px;
+                font-weight: 500;
+                color: #000;
+              }
+            }
+
+            .reset_variations {
+              text-decoration: underline;
+            }
+
+            .woocommerce-product-details__short-description {
+              margin: 10px 0;
+              font-weight: 500;
+              font-size: 15px;
+
+              span.meta-title {
+                font-size: 20px;
+                font-weight: 500;
+              }
+
+              * {
+                font-weight: 500;
+              }
+            }
+
+            form {
+              width: 100%;
+
+              .variations {
+                width: 100%;
+                float: left;
+
+                &-single {
+                  margin-bottom: 20px;
+
+                  .label {
+                    width: 100%;
+                    font-size: 12px;
+                    margin: 0 0 5px 0;
+                    color: #000;
+                    font-weight: 500;
+                  }
+
+                  .value {
+                    width: 100%;
+
+                    select {
+                      width: 100%;
+                      padding: 10px;
+                      border: 2px solid #eee;
+                      outline: none;
+                      transition: all 0.3s;
+                      font-weight: 500;
+                      border-radius: 5px;
+
+                      &:focus {
+                        border: 2px solid #000;
+                      }
+                    }
+                  }
+                }
+              }
+
+              .single_variation_wrap {
+                width: 100%;
+
+                .quantity {
+                  width: 100%;
+                  margin-bottom: 30px;
+
+                  label {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    overflow: visible;
+                    font-size: 12px;
+                    font-weight: 500;
+                    position: relative;
+                    margin-bottom: 5px;
+                  }
+
+                  input {
+                    width: 100%;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    border: 2px solid #eee;
+                    outline: none;
+                    font-weight: 500;
+                    transition: all 0.3s;
+
+                    &:focus {
+                      border: 2px solid #000;
+                    }
+                  }
+                }
+
+                p {
+                  font-weight: 500;
+                }
+
+                .button,
+                .added_to_cart {
+                  float: left;
+                  margin-right: 5px;
+                  width: 200px;
+                  max-width: 100%;
+                  background: #000;
+                  color: #fff;
+                }
+
+                .added_to_cart {
+                  font-size: 100%;
+                  line-height: 1;
+                  cursor: pointer;
+                  position: relative;
+                  text-decoration: none;
+                  overflow: visible;
+                  padding: 0.618em 1em;
+                  font-weight: 700;
+                  border-radius: 3px;
+                  left: auto;
+                  border: 0;
+                  display: inline-block;
+                  background-image: none;
+                  box-shadow: none;
+                  text-shadow: none;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

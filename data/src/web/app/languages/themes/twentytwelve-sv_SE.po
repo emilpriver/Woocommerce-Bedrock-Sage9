@@ -1,0 +1,352 @@
+# Translation of Themes - Twenty Twelve in Swedish
+# This file is distributed under the same license as the Themes - Twenty Twelve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-22 13:05:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Twenty Twelve\n"
+
+#. Description of the theme
+msgid "The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background."
+msgstr "The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background."
+
+#. Theme Name of the theme
+msgid "Twenty Twelve"
+msgstr "Twenty Twelve"
+
+#. translators: %s: The post title.
+#: comments.php:35
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "En tanke kring ”%s”"
+
+#: functions.php:94
+msgid "White"
+msgstr "Vitt"
+
+#: functions.php:89
+msgid "Light Gray"
+msgstr "Ljusgrått"
+
+#: functions.php:84
+msgid "Medium Gray"
+msgstr "Mellangrått"
+
+#: functions.php:79
+msgid "Dark Gray"
+msgstr "Mörkgrått"
+
+#: functions.php:74
+msgid "Blue"
+msgstr "Blått"
+
+#. Template Name of the theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Fullbreddsmall, utan sidofält"
+
+#. Template Name of the theme
+msgid "Front Page Template"
+msgstr "Mall för startsida"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Etikettarkiv: %s"
+
+#: single.php:25
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: single.php:24
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: search.php:41
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Ledsen, men inga matchande resultat kunde hittas baserat på dina kriterier. Var vänlig försök med andra sökord."
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: index.php:46
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Är du redo att publicera ditt första inlägg? <a href=\"%s\">Kom igång här</a>."
+
+#: index.php:42
+msgid "No posts to display"
+msgstr "Inga inlägg att visa"
+
+#: image.php:46
+msgid "Next &rarr;"
+msgstr "Nästa &rarr;"
+
+#: image.php:45
+msgid "&larr; Previous"
+msgstr "&larr; Föregående"
+
+#: image.php:30
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publicerat </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> i storleken <a href=\"%3$s\" title=\"Länk till bild i full storlek\">%4$s &times; %5$s</a> i <a href=\"%6$s\" title=\"Tillbaka till %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: header.php:45
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#: header.php:44
+msgid "Menu"
+msgstr "Meny"
+
+#: functions.php:514
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Detta inlägg postades den %3$s<span class=\"by-author\"> av %4$s</span>."
+
+#: functions.php:512
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Detta inlägg postades i %1$s den %3$s<span class=\"by-author\"> av %4$s</span>."
+
+#. Translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's
+#. name.
+#: functions.php:510
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Detta inlägg postades i %1$s och märktes %2$s den %3$s<span class=\"by-author\"> av %4$s</span>."
+
+#: functions.php:504
+msgid "View all posts by %s"
+msgstr "Visa alla inlägg av %s"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:488 functions.php:491
+msgid ", "
+msgstr ", "
+
+#: functions.php:460
+msgid "Reply"
+msgstr "Svara"
+
+#: functions.php:446
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#. translators: 1: date, 2: time
+#: functions.php:440
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: functions.php:433
+msgid "Post author"
+msgstr "Inläggsförfattare"
+
+#: functions.php:417
+msgid "(Edit)"
+msgstr "(Redigera)"
+
+#: functions.php:417
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: functions.php:391
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:390
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
+
+#: single.php:23 functions.php:389
+msgid "Post navigation"
+msgstr "Inläggsnavigering"
+
+#: functions.php:366
+msgid "Second Front Page Widget Area"
+msgstr "Andra widgetfältet för startsidan"
+
+#: functions.php:356 functions.php:368
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "Visas vid användning av den valfria mallen för startsidan när en statisk startsida är angiven"
+
+#: functions.php:354
+msgid "First Front Page Widget Area"
+msgstr "Första widgetfältet för startsidan"
+
+#: functions.php:344
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "Visas tillsammans med inlägg och sidor förutom i den valfria mallen för startsidan som har sina egna widgetfält"
+
+#: functions.php:342
+msgid "Main Sidebar"
+msgstr "Primär sidopanel"
+
+#: functions.php:310
+msgid "Page %s"
+msgstr "Sida %s"
+
+#. translators: To add an additional Open Sans character subset specific to
+#. your language, * translate this to 'greek', 'cyrillic' or 'vietnamese'. Do
+#. not translate into your own language.
+#: functions.php:157
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:151
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:108
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: footer.php:22
+msgid "Proudly powered by %s"
+msgstr "Drivs med %s"
+
+#: footer.php:21
+msgid "Semantic Personal Publishing Platform"
+msgstr "Semantisk personlig publiceringsplattform"
+
+#: content.php:75
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Visa alla inlägg av %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:16
+msgid "Featured post"
+msgstr "Utvalt inlägg"
+
+#: content-page.php:24 image.php:123 content.php:50
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: index.php:58 content-none.php:17
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Beklagar, inga resultat funna. Kanske kan en sökning hjälpa dig att hitta relaterat innehåll."
+
+#: index.php:54 search.php:37 content-none.php:13
+msgid "Nothing Found"
+msgstr "Kunde inte hittas"
+
+#: content-link.php:12
+msgid "Link"
+msgstr "Länk"
+
+#: content-aside.php:26 content-status.php:40 content-image.php:26
+#: content-link.php:24 content-page.php:31 content-quote.php:23 image.php:41
+#: functions.php:451 content.php:60
+msgid "Edit"
+msgstr "Redigera"
+
+#: content-aside.php:23 content-status.php:37 content-image.php:23
+#: content-link.php:21 content-quote.php:20 content.php:35
+msgid "% Replies"
+msgstr "% svar"
+
+#: content-aside.php:23 content-status.php:37 content-image.php:23
+#: content-link.php:21 content-quote.php:20 content.php:35
+msgid "1 Reply"
+msgstr "1 svar"
+
+#: content-aside.php:23 content-status.php:37 content-image.php:23
+#: content-link.php:21 content-quote.php:20 content.php:35
+msgid "Leave a reply"
+msgstr "Kommentera"
+
+#: content-aside.php:20 content-status.php:15 content-link.php:18
+#: content-quote.php:17
+msgid "Permalink to %s"
+msgstr "Permanent länk till %s"
+
+#: content-aside.php:15 content-status.php:31 content-image.php:13
+#: content-link.php:14 content-quote.php:13 content.php:46
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr "Kommentarer inaktiverade."
+
+#: comments.php:64
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:63
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: comments.php:62
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#. translators: %1$s: The number of comments. %2$s: The post title.
+#: comments.php:41
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s tanke kring ”%2$s”"
+msgstr[1] "%1$s tankar kring ”%2$s”"
+
+#: category.php:21
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
+
+#: content.php:71 author.php:64
+msgid "About %s"
+msgstr "Om %s"
+
+#: author.php:32
+msgid "Author Archives: %s"
+msgstr "Författararkiv: %s"
+
+#: archive.php:36
+msgid "Archives"
+msgstr "Arkiv"
+
+#: archive.php:34
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:34
+msgid "Yearly Archives: %s"
+msgstr "Årsarkiv: %s"
+
+#: archive.php:32
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:32
+msgid "Monthly Archives: %s"
+msgstr "månadsarkiv: %s"
+
+#: archive.php:30
+msgid "Daily Archives: %s"
+msgstr "Dagsarkiv: %s"
+
+#: 404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Det här var ju lite pinsamt, eller hur?"
+
+#. Author URI of the theme
+#: footer.php:21
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "WordPress-teamet"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentytwelve/"
+msgstr "https://wordpress.org/themes/twentytwelve/"

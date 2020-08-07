@@ -1,0 +1,389 @@
+# Translation of Themes - Twenty Nineteen in Swedish
+# This file is distributed under the same license as the Themes - Twenty Nineteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-19 11:20:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Twenty Nineteen\n"
+
+#. Description of the theme
+msgid "Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes."
+msgstr "Vårt standardtema för 2019 är utformat för att visa upp blockredigerarens möjligheter. Det har anpassade stilar för alla standardblock och är konstruerat så att innehållet i ser likadant ut redigeraren som på webbplatsen. Twenty Nineteen är utformat så att det kan anpassas för många typer av webbplatser, vare sig du har en fotoblogg, startar ett nytt företag eller stödjer en ideell förening. Det är byggt för att vara snyggt på skärmar av alla storlekar, med gott om vitt utrymme, rubriker i moderna sans-serifer i kombination med brödtext i klassiska serif-typsnitt."
+
+#. Theme Name of the theme
+msgid "Twenty Nineteen"
+msgstr "Twenty Nineteen"
+
+#. translators: %s: parent post link
+#: single.php:31
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
+msgstr "<span class=\"meta-nav\">Publicerad i</span><span class=\"post-title\">%s</span>"
+
+#: image.php:87
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publicerat i</span><br><span class=\"post-title\">%title</span>"
+
+#: template-parts/content/content.php:18
+#: template-parts/content/content-excerpt.php:18
+msgctxt "post"
+msgid "Featured"
+msgstr "Utvalt"
+
+#: inc/back-compat.php:39 inc/back-compat.php:53 inc/back-compat.php:73
+msgid "Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Nineteen kräver lägst WordPress version 4.7. Du använder version %s. Uppgradera och försök igen."
+
+#: inc/template-functions.php:216
+msgid "Back"
+msgstr "Tillbaka"
+
+#: inc/template-functions.php:209
+msgid "More"
+msgstr "Mer"
+
+#: inc/customizer.php:98
+msgid "Apply a filter to featured images using the primary color"
+msgstr "Använd ett filter för utvalda bilder med användning av primärfärgen"
+
+#: inc/customizer.php:78
+msgid "Apply a custom color for buttons, links, featured images, etc."
+msgstr "Använd en anpassad färg för knappar, länkar, utvalda bilder m.m."
+
+#: inc/customizer.php:56
+msgctxt "primary color"
+msgid "Custom"
+msgstr "Anpassad"
+
+#: inc/customizer.php:55
+msgctxt "primary color"
+msgid "Default"
+msgstr "Standard"
+
+#: functions.php:166
+msgid "White"
+msgstr "Vitt"
+
+#: functions.php:161
+msgid "Light Gray"
+msgstr "Ljustgrått"
+
+#: functions.php:156
+msgid "Dark Gray"
+msgstr "Mörkgrått"
+
+#: functions.php:151
+msgid "Secondary"
+msgstr "Sekundär"
+
+#: functions.php:134
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:133
+msgid "Huge"
+msgstr "Enorm"
+
+#: functions.php:128
+msgid "L"
+msgstr "L"
+
+#: functions.php:127
+msgid "Large"
+msgstr "Stor"
+
+#: functions.php:122
+msgid "M"
+msgstr "M"
+
+#: functions.php:121
+msgid "Normal"
+msgstr "Normal"
+
+#: functions.php:115
+msgid "Small"
+msgstr "Liten"
+
+#: functions.php:116
+msgid "S"
+msgstr "S"
+
+#: functions.php:60 footer.php:37
+msgid "Footer Menu"
+msgstr "Sidfotsmeny"
+
+#: image.php:70
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Full storlek"
+
+#: image.php:56
+msgid "Page"
+msgstr "Sida"
+
+#: functions.php:190
+msgid "Add widgets here to appear in your footer."
+msgstr "Lägg till widgetar här som ska visas i sidfoten."
+
+#: functions.php:188 template-parts/footer/footer-widgets.php:12
+msgid "Footer"
+msgstr "Sidfot"
+
+#: inc/customizer.php:53
+msgid "Primary Color"
+msgstr "Huvudfärg"
+
+#: template-parts/post/discussion-meta.php:18
+msgid "No comments"
+msgstr "Ingen kommentar"
+
+#. translators: %1(X comments)$s
+#: template-parts/post/discussion-meta.php:16
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d kommentar"
+msgstr[1] "%d kommentarer"
+
+#: template-parts/post/author-bio.php:26
+msgid "View more posts"
+msgstr "Visa fler inlägg"
+
+#. translators: %s: post author
+#: template-parts/post/author-bio.php:17
+msgid "Published by %s"
+msgstr "Publicerat av %s"
+
+#: template-parts/header/site-branding.php:33
+msgid "Top Menu"
+msgstr "Toppmeny"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content/content.php:36
+#: template-parts/content/content-single.php:27
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Fortsätt läsa<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: image.php:52 template-parts/content/content-page.php:27
+#: template-parts/content/content.php:49
+#: template-parts/content/content-single.php:40
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: template-parts/content/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
+
+#: template-parts/content/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ledsen, inget matchade dina sökkriterier. Vänligen försök igen med andra nyckelord."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här</a>."
+
+#: template-parts/content/content-none.php:16
+msgid "Nothing Found"
+msgstr "Kunde inte hittas"
+
+#: single.php:42
+msgid "Previous post:"
+msgstr "Föregående inlägg:"
+
+#: single.php:41
+msgid "Previous Post"
+msgstr "Föregående inlägg"
+
+#: single.php:39
+msgid "Next post:"
+msgstr "Nästa inlägg:"
+
+#: single.php:38
+msgid "Next Post"
+msgstr "Nästa inlägg"
+
+#: search.php:22
+msgid "Search results for:"
+msgstr "Sökresultat för:"
+
+#: inc/template-tags.php:234
+msgid "Older posts"
+msgstr "Äldre inlägg"
+
+#: inc/template-tags.php:230
+msgid "Newer posts"
+msgstr "Nyare inlägg"
+
+#: inc/template-tags.php:104
+msgid "Tags:"
+msgstr "Etiketter:"
+
+#: inc/template-tags.php:92
+msgid "Posted in"
+msgstr "Publicerat i"
+
+#. translators: used between list items, there is a space after the comma.
+#: inc/template-tags.php:86 inc/template-tags.php:98
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:63
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lämna en kommentar<span class=\"screen-reader-text\"> till %s</span>"
+
+#: inc/template-tags.php:46
+msgid "Posted by"
+msgstr "Publicerat av"
+
+#: inc/template-functions.php:82
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-functions.php:80
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-functions.php:92
+msgid "Archives:"
+msgstr "Arkiv:"
+
+#. translators: %s: Taxonomy singular name
+#: inc/template-functions.php:90
+msgid "%s Archives:"
+msgstr "Arkiv för %s:"
+
+#: inc/template-functions.php:86
+msgid "Post Type Archives: "
+msgstr "Inläggstypsarkiv:"
+
+#: inc/template-functions.php:84
+msgid "Daily Archives: "
+msgstr "Dagliga arkiv:"
+
+#: inc/template-functions.php:82
+msgid "Monthly Archives: "
+msgstr "Månatliga arkiv:"
+
+#: inc/template-functions.php:80
+msgid "Yearly Archives: "
+msgstr "Årsarkiv:"
+
+#: inc/template-functions.php:78
+msgid "Author Archives: "
+msgstr "Författararkiv:"
+
+#: inc/template-functions.php:76
+msgid "Tag Archives: "
+msgstr "Etikettarkiv:"
+
+#: inc/template-functions.php:74
+msgid "Category Archives: "
+msgstr "Kategoriarkiv:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: template-parts/content/content-page.php:41
+#: template-parts/header/entry-header.php:32 inc/template-tags.php:120
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#: functions.php:61 template-parts/header/site-branding.php:46
+msgid "Social Links Menu"
+msgstr "Meny för sociala länkar"
+
+#: functions.php:59 functions.php:146
+msgid "Primary"
+msgstr "Huvudmeny"
+
+#. translators: %s: WordPress.
+#: footer.php:28
+msgid "Proudly powered by %s."
+msgstr "Drivs med %s."
+
+#: comments.php:116
+msgid "Comments are closed."
+msgstr "Kommentarer inaktiverade."
+
+#: comments.php:96
+msgid "Next"
+msgstr "Nästa"
+
+#: comments.php:95
+msgid "Previous"
+msgstr "Föregående"
+
+#: comments.php:92 comments.php:95 comments.php:96
+msgid "Comments"
+msgstr "Kommentarer"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s svar på ”%2$s”"
+msgstr[1] "%1$s svar på ”%2$s”"
+
+#. translators: %s: post title
+#: comments.php:40
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Ett svar på ”%s”"
+
+#: comments.php:35 comments.php:105 comments.php:107
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#: comments.php:33
+msgid "Join the Conversation"
+msgstr "Delta i diskussionen"
+
+#: classes/class-twentynineteen-walker-comment.php:99
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: classes/class-twentynineteen-walker-comment.php:94
+msgid "Edit"
+msgstr "Redigera"
+
+#. translators: 1: comment date, 2: comment time
+#: classes/class-twentynineteen-walker-comment.php:86
+msgid "%1$s at %2$s"
+msgstr "%1$s \\k\\l. %2$s"
+
+#: classes/class-twentynineteen-walker-comment.php:66
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr "%s <span class=\"screen-reader-text says\">säger:</span>"
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Det verkar inte som något kunde hittas för den här platsen. Testa en sökning kanske?"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ojdå! Sidan kunde inte hittas."
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentynineteen/"
+msgstr "https://wordpress.org/themes/twentynineteen/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "WordPress-teamet"
+
+#. Author URI of the theme
+#: footer.php:25
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

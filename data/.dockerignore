@@ -1,0 +1,31 @@
+# Application
+src/web/app/plugins/*
+!src/web/app/plugins/.gitkeep
+src/web/app/upgrade
+src/web/app/uploads/*
+!src/web/app/uploads/.gitkeep
+
+# WordPress
+src/web/wp
+src/web/.htaccess
+
+# Dotenv
+src/.env
+src/.env.*
+!src/.env.example
+
+# Composer
+src/vendor
+
+# Plugins
+!src/web/app/plugins/rc-category-posts
+!src/web/app/plugins/advanced-cron-manager-pro
+
+# Theme
+src/web/app/themes/leagueshop/.cache-loader
+src/web/app/themes/leagueshop/dist
+src/web/app/themes/leagueshop/node_modules
+src/web/app/themes/leagueshop/npm-debug.log
+src/web/app/themes/leagueshop/yarn-error.log
+src/web/app/themes/leagueshop/vendor
+src/web/app/themes/leagueshop/resources/assets/config-local.json

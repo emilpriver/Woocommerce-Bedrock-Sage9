@@ -1,0 +1,130 @@
+.woocommerce {
+  &-MyAccount {
+    &-content {
+      padding: 50px;
+      box-sizing: border-box;
+
+      a.button {
+        color: #fff;
+        background: #000;
+        background-color: #000;
+
+        &:hover {
+          color: #fff;
+          background: #000;
+          background-color: #000;
+        }
+      }
+
+      input {
+        background: #eee;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+
+      button.button {
+        background: #000;
+        background-color: #000;
+        color: #fff;
+        outline: none;
+
+        &:hover {
+          background: #000;
+          background-color: #000;
+          color: #fff;
+          outline: none;
+        }
+      }
+
+      * {
+        color: #888;
+        font-weight: 500;
+      }
+
+      a {
+        color: #000;
+        text-decoration: underline;
+      }
+
+      strong {
+        color: #000;
+      }
+
+      .addresses {
+        padding: 30px 0;
+
+        .woocommerce-Address {
+          border: 2px solid #eee;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+      }
+
+      .woocommerce-address-fields {
+        input {
+          background: #eee;
+          padding: 5px;
+          box-sizing: border-box;
+        }
+
+        button {
+          background: #000;
+          color: #fff;
+          outline: none;
+        }
+      }
+    }
+
+    &-navigation {
+      border: 2px solid #eee;
+
+      ul {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+
+        li {
+          width: 100%;
+          float: left;
+          padding: 10px;
+          box-sizing: border-box;
+          border-bottom: 2px solid #eee;
+
+          &:last-of-type {
+            border-bottom: 0;
+          }
+
+          a {
+            color: #000;
+            font-size: 20px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
+  .lost_reset_password {
+    input {
+      background: #eee;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #000;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      outline: none;
+    }
+  }
+}
+
+.woocommerce-NoticeGroup {
+  .woocommerce-error {
+    border: 2px solid red;
+    border-radius: 5px;
+    background: transparent;
+  }
+}

@@ -1,0 +1,17 @@
+section.two-columns {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+
+  .container {
+    flex-wrap: wrap;
+
+    .col {
+      flex: 0 0 100%;
+
+      @screen md {
+        flex: 0 0 50%;
+      }
+    }
+  }
+}

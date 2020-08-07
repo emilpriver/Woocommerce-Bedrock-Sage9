@@ -1,0 +1,36 @@
+version: '2'
+services:
+  nginx:
+    restart: unless-stopped 
+    image: 
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    #volumes:
+      #- ./nginx/logs:/var/log/nginx
+    volumes_from:
+      - data
+    ports:
+      - '8081:80'
+    depends_on:
+      - php-fpm
+  php-fpm:
+    image: 
+    restart: always
+    build:
+      context: ./php-fpm
+      dockerfile: Dockerfile
+    env_file:
+      - ./data/config/.env.production
+    volumes_from:
+      - data
+  data:
+    image: 
+    restart: always
+    build:
+      context: ./data
+      dockerfile: Dockerfile
+    env_file:
+      - ./data/config/.env.production
+    volumes:
+      - /var/www/html

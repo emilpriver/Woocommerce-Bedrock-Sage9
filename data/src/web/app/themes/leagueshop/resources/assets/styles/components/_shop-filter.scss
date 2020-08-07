@@ -1,0 +1,92 @@
+.filter {
+  padding-top: 5px;
+
+  &-col {
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+
+    .meta {
+      width: 100%;
+      float: left;
+
+      h3 {
+        float: left;
+        font-weight: 700;
+        color: #000;
+        font-family: $roboto;
+      }
+
+      span {
+        float: right;
+      }
+    }
+
+    .with-columns-selectors {
+      width: 100%;
+      float: left;
+
+      &.category {
+        padding: 10px 0;
+      }
+
+      span {
+        &.block {
+          width: calc(50% - 5px);
+          float: left;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          padding: 5px;
+          box-sizing: border-box;
+          text-align: center;
+          border: 1px solid #eee;
+          transition: all 0.3s;
+          font-weight: 500;
+          color: #000;
+          cursor: pointer;
+
+          &.active {
+            border: 1px solid #000;
+          }
+        }
+
+        &.line {
+          width: 100%;
+          font-weight: 500 !important;
+          color: #000;
+          font-size: 14px;
+          margin-bottom: 3px;
+          cursor: pointer;
+          float: left;
+        }
+      }
+
+      &.colors {
+        span {
+          width: calc(33% - 5px);
+          text-align: center;
+
+          &:nth-child(3n) {
+            margin-right: 0;
+          }
+
+          strong {
+            margin: 0 auto;
+            height: 20px;
+            width: 20px;
+            display: block;
+          }
+        }
+      }
+
+      &.sizes {
+        &:nth-child(even) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

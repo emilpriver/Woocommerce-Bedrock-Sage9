@@ -1,0 +1,33 @@
+version: '2'
+services:
+  nginx:
+    image: 
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    #volumes:
+      #- ./nginx/logs:/var/log/nginx
+    volumes_from:
+      - data
+    ports:
+      - '5000:80'
+    depends_on:
+      - php-fpm
+  php-fpm:
+    image: 
+    build:
+      context: ./php-fpm
+      dockerfile: Dockerfile
+    env_file:
+      - ./data/config/.env.staging
+    volumes_from:
+      - data
+  data:
+    image:
+    build:
+      context: ./data
+      dockerfile: Dockerfile
+    env_file:
+      - ./data/config/.env.staging
+    volumes:
+      - /var/www/html

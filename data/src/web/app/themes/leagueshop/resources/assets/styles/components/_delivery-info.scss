@@ -1,0 +1,63 @@
+section.delivery-info {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+
+  .container {
+    .title {
+      width: 100%;
+      float: left;
+      margin-bottom: 30px;
+
+      h2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+
+        @screen md {
+          font-size: 50px;
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      float: left;
+
+      .col {
+        text-align: center;
+
+        .image {
+          width: 100%;
+          float: left;
+          text-align: center;
+          margin-bottom: 10px;
+          height: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            max-height: 200px;
+            max-width: 100%;
+            height: auto;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+
+        .info {
+          h3 {
+            font-weight: 700;
+            font-size: 25px;
+          }
+
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

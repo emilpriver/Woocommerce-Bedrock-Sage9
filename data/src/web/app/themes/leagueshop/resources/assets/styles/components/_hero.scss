@@ -1,0 +1,91 @@
+.hero {
+  width: 100%;
+  float: left;
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 600px) {
+    height: 400px !important;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.frontpage {
+      margin-bottom: 15px;
+    }
+
+    .wrapper {
+      padding: 15px;
+      box-sizing: border-box;
+
+      @screen md {
+        padding: 0;
+      }
+
+      * {
+        font-family: $roboto;
+      }
+
+      h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        @screen md {
+          font-size: 60px;
+        }
+      }
+
+      h2 {
+        @media screen and (max-width: 700px) {
+          font-size: 40px !important;
+        }
+      }
+
+      h3 {
+        @media screen and (max-width: 700px) {
+          font-size: 30px !important;
+        }
+      }
+
+      .links {
+        width: 100%;
+        float: left;
+
+        .link {
+          text-align: center;
+          float: left;
+          margin-top: 40px;
+          margin-right: 60px;
+
+          &:last-of-type {
+            margin-right: 0;
+          }
+
+          &-button {
+            padding: 15px 30px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px;
+
+            @screen sm {
+              padding: 15px 50px;
+            }
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

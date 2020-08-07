@@ -1,0 +1,50 @@
+section.twotimestwo {
+  width: 100%;
+  float: left;
+
+  .container {
+    overflow: hidden;
+
+    @media screen and (max-width: 640px) {
+      max-width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-sizing: border-box;
+    }
+
+    .wrapper {
+      margin: 0 -15px;
+
+      .col {
+        padding: 4px;
+
+        @screen sm {
+          padding: 15px;
+        }
+
+        img {
+          width: 100%;
+          float: left;
+          height: auto;
+          transition: all 0.3s;
+
+          &:hover {
+            transform: scale(1.01);
+          }
+        }
+
+        .block {
+          height: 408px;
+          background-position: center right;
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: all 0.3s;
+
+          &:hover {
+            transform: scale(1.01);
+          }
+        }
+      }
+    }
+  }
+}
